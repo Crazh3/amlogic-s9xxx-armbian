@@ -235,6 +235,7 @@ on:
         type: choice
         options:
           - ophub/kernel
+          - Crazh3/ophub_kernel
       kernel_usage:
         description: "Set the tags of the stable kernel."
         required: false
