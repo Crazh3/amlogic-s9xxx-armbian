@@ -1262,6 +1262,7 @@ loop_rebuild() {
 
 # Show welcome message
 echo -e "${STEPS} Welcome to Rebuild Armbian!"
+echo -e "${STEPS} Welcome to Rebuild Crazh3 Armbian!"
 echo -e "${INFO} Server running on Ubuntu: [ Release: ${host_release} / Host: ${arch_info} ] \n"
 # Check script permission
 [[ "$(id -u)" == 0 ]] || error_msg "Please run this script as root: [ sudo ./${0} ]"
